@@ -10,10 +10,10 @@ public class TestPostService {
     private final TestPostRepository testPostRepository;
     private static TestPostService instance;
 
-    public static TestPostService getInstance() {
-        if (instance == null) {
-            instance = new TestPostService(TestPostRepository.getInstance());
-        }
-        return instance;
-    }
+//    public static TestPostService getInstance() {
+//        if (instance == null) {
+//            instance = new TestPostService(TestPostRepository.getInstance());
+//        }
+//        return instance;
+//    }
 }

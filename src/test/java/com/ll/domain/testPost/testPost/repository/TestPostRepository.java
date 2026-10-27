@@ -10,11 +10,11 @@ public class TestPostRepository {
 
 
 
-    public static TestPostRepository getInstance() {
-        if (instacane == null) {
-            instacane = new TestPostRepository();
-        }
-
-        return instacane;
-    }
+//    public static TestPostRepository getInstance() {
+//        if (instacane == null) {
+//            instacane = new TestPostRepository();
+//        }
+//
+//        return instacane;
+//    }
 }

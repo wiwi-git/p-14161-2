@@ -9,17 +9,17 @@ import lombok.RequiredArgsConstructor;
 public class TestFacadePostService {
     private final TestPostService testPostService;
     private final TestPostRepository testPostRepository;
-
-    private static TestFacadePostService instance;
-
-    public static TestFacadePostService getInstance() {
-        if (instance == null) {
-            instance = new TestFacadePostService(
-                    TestPostService.getInstance(),
-                    TestPostRepository.getInstance()
-            );
-        }
-
-        return instance;
-    }
+//
+//    private static TestFacadePostService instance;
+//
+//    public static TestFacadePostService getInstance() {
+//        if (instance == null) {
+//            instance = new TestFacadePostService(
+//                    TestPostService.getInstance(),
+//                    TestPostRepository.getInstance()
+//            );
+//        }
+//
+//        return instance;
+//    }
 }
